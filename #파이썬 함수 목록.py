@@ -45,9 +45,26 @@ bin() # -> bin(x)함수는 매개변수 x에 정수 값을 입력 받아서 2진
 bool() # -> bool(x) 함수는 매개변수 x에 값을 입력 받아서 True 또는 False로
        #    반환하는 함수이다.
        #    x에 0을 제외한 어떤 값이 입력된다면
-breakpoint()
-bytearray()
-bytes()
+
+breakpoint() # -> Python 3.7부터 추가된 built-in(내장)함수로 이 함수를
+             #    사용하면 프로그램이 멈추고 interactive debugger를 실행
+             #    하면서 코드를 살펴볼 수 있다.
+
+             #    ***
+             #    interactive debugger란?
+             #    *** 추가 정보 및 주석 필요 ***--------------------
+
+bytearray() # -> 1바이트 단위의 값을 저장하는 자료형이다. byte와 다른 점은
+            #    값의 수정이 가능하다.또한 bytearray는 다양한 형태로 활용
+            #    가능하다.
+            #    bytearray() : 빈 바이트 배열 객체를 생성
+            #    bytearray(길이) : 해당 길이만큼 0으로 채운 byte형
+            #                     배열을 생성
+            #    bytearray(리스트) : 전달받은 리스트를 바이트 배열로
+            #                       만들어서 객체를 생성
+            #    bytearray(b'문자열') : 문자열을 바이트배열 객체로 생성
+
+bytes() # -> 
 callable()
 chr()
 classmethod()
